@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Inconsolata";
+  src: url("../assets/fonts/static/Inconsolata-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "InconsolataBold";
+  src: url("../assets/fonts/static/Inconsolata-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inconsolata-ExtraBold";
+  src: url("../assets/fonts/static/Inconsolata-ExtraBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inconsolata-Medium";
+  src: url("../assets/fonts/static/Inconsolata-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ticket {
+  width: 400px; /* Adjust ticket size */
+  height: 200px; /* Adjust ticket size */
+  margin-top: 20px;
+  background: url("../public/assets/images/pattern-ticket.svg") no-repeat
+    center/cover; /* SVG as background */
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid hsl(252, 6%, 83%);
+  border-radius: 10px;
+  align-items: flex-start;
+}
+@media (max-width: 375px) {
+  .ticket {
+    width: 100%;
+    height: auto;
+  }
+}
+.second-div {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ticket-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20%;
+}
+.img_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.5;
+  margin: 15px;
+}
+.text_div {
+  flex: 4;
+}
+.text_div .name {
+  margin: 0;
+}
+.text_div .github {
+  font-family: Inconsolata;
+  color: hsl(252, 6%, 83%);
+  margin-top: 5px;
+  display: flex;
+}
+.github svg {
+  width: 15px;
+  margin-right: 5px;
+}
+.first-div {
+  margin: 15px;
+}
+.first-div p {
+  margin: 0;
+  margin-left: 50px;
+  margin-top: 5px;
+  font-family: Inconsolata;
+  color: hsl(252, 6%, 83%);
+  font-size: 12px;
+}
+.third-div {
+  align-self: flex-end;
+  transform: rotate(90deg);
+  margin-top: 10px;
+  font-family: Inconsolata;
+  color: hsl(252, 6%, 83%);
+}

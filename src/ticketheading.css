@@ -1,0 +1,13 @@
+.ticket-heading .highlighted-name {
+  background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display: inline;
+}
+.ticket-heading p {
+  margin: 0;
+  margin-top: 5px;
+}
+.ticket-heading .email {
+  color: hsl(7, 88%, 67%);
+}
