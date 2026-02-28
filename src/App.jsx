@@ -8,7 +8,7 @@ import { useForm } from "./formContext";
 export default function App() {
   return (
     <FormProvider>
-      <div className="App">
+      <div className="App demo">
         <img
           src="../assets/images/logo-full.svg"
           alt="logo"
